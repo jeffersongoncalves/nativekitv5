@@ -18,7 +18,7 @@ return [
     'favicon' => [
         'enabled' => true,
         'manifest' => [
-            'name' => env('APP_NAME', 'Filakit'),
+            'name' => env('APP_NAME', 'Nativekit'),
             'icons' => [
                 '36' => '0.75',
                 '48' => '1.0',
