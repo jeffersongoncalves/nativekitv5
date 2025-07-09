@@ -17,7 +17,6 @@
     "require": {
         "php": "^8.2",
         "filament/filament": "4.0.0-beta15",
-        "jeffersongoncalves/filament-logo": "^2.0",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6",
@@ -90,6 +89,10 @@
         "queue": [
             "Composer\\Config::disableProcessTimeout",
             "npx concurrently -c \"#93c5fd\" \"php artisan queue:listen --tries=1\" --names=queue"
+        ],
+        "native:dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "npx concurrently -k -c \"#93c5fd,#c4b5fd\" \"php artisan native:serve --no-interaction\" \"npm run dev\" --names=app,vite"
         ]
     },
     "extra": {

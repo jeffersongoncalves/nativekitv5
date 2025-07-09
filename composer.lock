@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f2a207da92b6c723d89b4fdfe9d89d2",
+    "content-hash": "dd9033bae07311bd3e895704a4b59a22",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -1974,74 +1974,6 @@
                 }
             ],
             "time": "2025-02-03T10:55:03+00:00"
-        },
-        {
-            "name": "jeffersongoncalves/filament-logo",
-            "version": "2.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jeffersongoncalves/filament-logo.git",
-                "reference": "7483f0824d82714d14c3a952f5c3fa1893873883"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-logo/zipball/7483f0824d82714d14c3a952f5c3fa1893873883",
-                "reference": "7483f0824d82714d14c3a952f5c3fa1893873883",
-                "shasum": ""
-            },
-            "require": {
-                "filament/filament": "^4.0",
-                "php": "^8.2|^8.3",
-                "spatie/laravel-package-tools": "^1.14.0"
-            },
-            "require-dev": {
-                "larastan/larastan": "^3.0",
-                "laravel/pint": "^1.21",
-                "orchestra/testbench": "^9.0|^10.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "JeffersonGoncalves\\Filament\\Logo\\LogoServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "JeffersonGoncalves\\Filament\\Logo\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jefferson Gonçalves",
-                    "email": "gerson.simao.92@gmail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A simple yet effective Filament plugin that automatically adds the Filament logo to your admin panel. This plugin enhances your Filament panel's user experience by displaying the logo in strategic locations.",
-            "homepage": "https://github.com/jeffersongoncalves/filament-logo",
-            "keywords": [
-                "filament",
-                "filament-logo",
-                "jeffersongoncalves",
-                "laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-logo/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-logo/tree/2.0.4"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-06-21T13:26:40+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
