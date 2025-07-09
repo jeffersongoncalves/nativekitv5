@@ -36,7 +36,7 @@ laravel new my-app --using=jeffersongoncalves/nativekitv4
 
 ###  Easy Installation
 
-Nativekit can be easily installed using the following command:
+NativeKit can be easily installed using the following command:
 
 ```bash
 php install.php
@@ -80,7 +80,7 @@ php artisan native:serve
 
 ## Authentication Structure
 
-Nativekit comes pre-configured with a custom authentication system that supports different types of users:
+NativeKit comes pre-configured with a custom authentication system that supports different types of users:
 
 - `Admin` - For administrative panel access
 - `User` - For application panel access
@@ -125,7 +125,7 @@ The `config/nativekit.php` file centralizes the configuration of the starter kit
 
 ## Resources
 
-Nativekit includes support for:
+NativeKit includes support for:
 
 - User and admin management
 - Multi-guard authentication system
