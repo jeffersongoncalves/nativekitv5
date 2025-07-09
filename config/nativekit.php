@@ -28,7 +28,7 @@ return [
                 '192' => '4.0',
             ],
         ],
-        'logo' => 'resources/images/logo-filakit.png',
+        'logo' => 'resources/images/logo-nativekit.png',
         'favicon' => 'resources/favicon/favicon.ico',
     ],
 ];

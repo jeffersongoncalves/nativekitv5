@@ -29,16 +29,16 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        if (config('filakit.admin_panel_enabled', false)) {
+        if (config('nativekit.admin_panel_enabled', false)) {
             $this->app->register(AdminPanelProvider::class);
         }
-        if (config('filakit.app_panel_enabled', false)) {
+        if (config('nativekit.app_panel_enabled', false)) {
             $this->app->register(AppPanelProvider::class);
         }
-        if (config('filakit.guest_panel_enabled', false)) {
+        if (config('nativekit.guest_panel_enabled', false)) {
             $this->app->register(GuestPanelProvider::class);
         }
-        if (config('filakit.favicon.enabled')) {
+        if (config('nativekit.favicon.enabled')) {
             FilamentView::registerRenderHook(PanelsRenderHook::HEAD_START, fn (): View => view('components.favicon'));
         }
         FilamentView::registerRenderHook(PanelsRenderHook::HEAD_START, fn (): View => view('components.js-md5'));
@@ -103,14 +103,14 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::configureUsing(function (Schema $schema) {
             return $schema
-                ->defaultCurrency(config('filakit.defaultCurrency'))
-                ->defaultDateDisplayFormat(config('filakit.defaultDateDisplayFormat'))
-                ->defaultIsoDateDisplayFormat(config('filakit.defaultIsoDateDisplayFormat'))
-                ->defaultDateTimeDisplayFormat(config('filakit.defaultDateTimeDisplayFormat'))
-                ->defaultIsoDateTimeDisplayFormat(config('filakit.defaultIsoDateTimeDisplayFormat'))
-                ->defaultNumberLocale(config('filakit.defaultNumberLocale'))
-                ->defaultTimeDisplayFormat(config('filakit.defaultTimeDisplayFormat'))
-                ->defaultIsoTimeDisplayFormat(config('filakit.defaultIsoTimeDisplayFormat'));
+                ->defaultCurrency(config('nativekit.defaultCurrency'))
+                ->defaultDateDisplayFormat(config('nativekit.defaultDateDisplayFormat'))
+                ->defaultIsoDateDisplayFormat(config('nativekit.defaultIsoDateDisplayFormat'))
+                ->defaultDateTimeDisplayFormat(config('nativekit.defaultDateTimeDisplayFormat'))
+                ->defaultIsoDateTimeDisplayFormat(config('nativekit.defaultIsoDateTimeDisplayFormat'))
+                ->defaultNumberLocale(config('nativekit.defaultNumberLocale'))
+                ->defaultTimeDisplayFormat(config('nativekit.defaultTimeDisplayFormat'))
+                ->defaultIsoTimeDisplayFormat(config('nativekit.defaultIsoTimeDisplayFormat'));
         });
     }
 
@@ -202,14 +202,14 @@ class AppServiceProvider extends ServiceProvider
     {
         Tables\Table::configureUsing(function (Tables\Table $table) {
             return $table
-                ->defaultCurrency(config('filakit.defaultCurrency'))
-                ->defaultDateDisplayFormat(config('filakit.defaultDateDisplayFormat'))
-                ->defaultIsoDateDisplayFormat(config('filakit.defaultIsoDateDisplayFormat'))
-                ->defaultDateTimeDisplayFormat(config('filakit.defaultDateTimeDisplayFormat'))
-                ->defaultIsoDateTimeDisplayFormat(config('filakit.defaultIsoDateTimeDisplayFormat'))
-                ->defaultNumberLocale(config('filakit.defaultNumberLocale'))
-                ->defaultTimeDisplayFormat(config('filakit.defaultTimeDisplayFormat'))
-                ->defaultIsoTimeDisplayFormat(config('filakit.defaultIsoTimeDisplayFormat'));
+                ->defaultCurrency(config('nativekit.defaultCurrency'))
+                ->defaultDateDisplayFormat(config('nativekit.defaultDateDisplayFormat'))
+                ->defaultIsoDateDisplayFormat(config('nativekit.defaultIsoDateDisplayFormat'))
+                ->defaultDateTimeDisplayFormat(config('nativekit.defaultDateTimeDisplayFormat'))
+                ->defaultIsoDateTimeDisplayFormat(config('nativekit.defaultIsoDateTimeDisplayFormat'))
+                ->defaultNumberLocale(config('nativekit.defaultNumberLocale'))
+                ->defaultTimeDisplayFormat(config('nativekit.defaultTimeDisplayFormat'))
+                ->defaultIsoTimeDisplayFormat(config('nativekit.defaultIsoTimeDisplayFormat'));
         });
         Tables\Columns\Column::configureUsing(function (Tables\Columns\Column $column) {
             return $column->translateLabel();
