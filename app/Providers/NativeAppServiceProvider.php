@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Native\Laravel\Contracts\ProvidesPhpIni;
+use Native\Laravel\Facades\Menu;
 use Native\Laravel\Facades\Window;
 
 class NativeAppServiceProvider implements ProvidesPhpIni
@@ -13,6 +14,24 @@ class NativeAppServiceProvider implements ProvidesPhpIni
      */
     public function boot(): void
     {
+        $panels = [];
+
+        if (config('nativekit.admin_panel_enabled', false)) {
+            $panels[] = Menu::route('filament.admin.auth.login', 'Admin Panel');
+        }
+        if (config('nativekit.app_panel_enabled', false)) {
+            $panels[] = Menu::route('filament.app.auth.login', 'App Panel');
+        }
+        if (config('nativekit.guest_panel_enabled', false)) {
+            $panels[] = Menu::route('filament.guest.pages.dashboard', 'Guest Panel');
+        }
+
+        Menu::create(
+            Menu::make(...$panels)->label('Panels'),
+            Menu::file(),
+            Menu::view(),
+        );
+
         Window::open()
             ->maximized();
     }
