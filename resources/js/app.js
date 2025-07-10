@@ -1,1 +1,1 @@
-import.meta.glob(['../images/**', '../favicon/**']);
+import.meta.glob(['../images/**']);
