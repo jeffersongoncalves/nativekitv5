@@ -1183,7 +1183,7 @@ namespace PHPSTORM_META {
             'filesystems.disks.s3.use_path_style_endpoint' => 'boolean',
             'filesystems.disks.s3.throw' => 'boolean',
             'filesystems.disks.s3.report' => 'boolean',
-            'filesystems.links.D:\jeffersongoncalves\nativekitv4\public\storage' => 'string',
+            'filesystems.links.D:\jeffersongoncalves\nativekitv5\public\storage' => 'string',
             'logging.default' => 'string',
             'logging.deprecations.channel' => 'NULL',
             'logging.deprecations.trace' => 'boolean',
@@ -1790,7 +1790,7 @@ namespace PHPSTORM_META {
             'filesystems.disks.s3.use_path_style_endpoint' => 'boolean',
             'filesystems.disks.s3.throw' => 'boolean',
             'filesystems.disks.s3.report' => 'boolean',
-            'filesystems.links.D:\jeffersongoncalves\nativekitv4\public\storage' => 'string',
+            'filesystems.links.D:\jeffersongoncalves\nativekitv5\public\storage' => 'string',
             'logging.default' => 'string',
             'logging.deprecations.channel' => 'NULL',
             'logging.deprecations.trace' => 'boolean',
@@ -2397,7 +2397,7 @@ namespace PHPSTORM_META {
             'filesystems.disks.s3.use_path_style_endpoint' => 'boolean',
             'filesystems.disks.s3.throw' => 'boolean',
             'filesystems.disks.s3.report' => 'boolean',
-            'filesystems.links.D:\jeffersongoncalves\nativekitv4\public\storage' => 'string',
+            'filesystems.links.D:\jeffersongoncalves\nativekitv5\public\storage' => 'string',
             'logging.default' => 'string',
             'logging.deprecations.channel' => 'NULL',
             'logging.deprecations.trace' => 'boolean',
@@ -2825,7 +2825,7 @@ namespace PHPSTORM_META {
     override(\optional(0), type(0));
 
             registerArgumentsSet('auth', );
-        registerArgumentsSet('configs', 
+        registerArgumentsSet('configs',
 'app.name','app.env','app.debug','app.url','app.frontend_url',
 'app.asset_url','app.timezone','app.locale','app.fallback_locale','app.faker_locale',
 'app.cipher','app.key','app.previous_keys','app.maintenance.driver','app.maintenance.store',
@@ -2869,7 +2869,7 @@ namespace PHPSTORM_META {
 'filesystems.disks.public.driver','filesystems.disks.public.root','filesystems.disks.public.url','filesystems.disks.public.visibility','filesystems.disks.public.throw',
 'filesystems.disks.public.report','filesystems.disks.s3.driver','filesystems.disks.s3.key','filesystems.disks.s3.secret','filesystems.disks.s3.region',
 'filesystems.disks.s3.bucket','filesystems.disks.s3.url','filesystems.disks.s3.endpoint','filesystems.disks.s3.use_path_style_endpoint','filesystems.disks.s3.throw',
-'filesystems.disks.s3.report','filesystems.links.D:\\jeffersongoncalves\\nativekitv4\\public\\storage','logging.default','logging.deprecations.channel','logging.deprecations.trace',
+'filesystems.disks.s3.report','filesystems.links.D:\\jeffersongoncalves\\nativekitv5\\public\\storage','logging.default','logging.deprecations.channel','logging.deprecations.trace',
 'logging.channels.stack.driver','logging.channels.stack.channels','logging.channels.stack.ignore_exceptions','logging.channels.single.driver','logging.channels.single.path',
 'logging.channels.single.level','logging.channels.single.replace_placeholders','logging.channels.daily.driver','logging.channels.daily.path','logging.channels.daily.level',
 'logging.channels.daily.days','logging.channels.daily.replace_placeholders','logging.channels.slack.driver','logging.channels.slack.url','logging.channels.slack.username',
@@ -2947,11 +2947,11 @@ namespace PHPSTORM_META {
 'ide-helper.interfaces','ide-helper.model_camel_case_properties','ide-helper.type_overrides.integer','ide-helper.type_overrides.boolean','ide-helper.include_class_docblocks',
 'ide-helper.force_fqn','ide-helper.use_generics_annotations','ide-helper.additional_relation_types','ide-helper.additional_relation_return_types','ide-helper.enforce_nullable_relationships',
 'ide-helper.post_migrate','ide-helper.macroable_traits','tinker.commands','tinker.alias','tinker.dont_alias',);
-        registerArgumentsSet('middleware', 
+        registerArgumentsSet('middleware',
 'web','api','auth','auth.basic','auth.session',
 'cache.headers','can','guest','password.confirm','precognitive',
 'signed','throttle','verified',);
-        registerArgumentsSet('routes', 
+        registerArgumentsSet('routes',
 'debugbar.openhandler','debugbar.clockwork','debugbar.assets.css','debugbar.assets.js','debugbar.cache.delete',
 'debugbar.queries.explain','filament.exports.download','filament.imports.failed-rows.download','filament.admin.auth.login','filament.admin.auth.password-reset.request',
 'filament.admin.auth.password-reset.reset','filament.admin.auth.logout','filament.admin.auth.profile','filament.admin.pages.dashboard','filament.admin.resources.admins.index',
@@ -2959,7 +2959,7 @@ namespace PHPSTORM_META {
 'filament.admin.resources.users.view','filament.admin.resources.users.edit','filament.app.auth.login','filament.app.auth.password-reset.request','filament.app.auth.password-reset.reset',
 'filament.app.auth.logout','filament.app.auth.profile','filament.app.pages.dashboard','filament.guest.auth.logout','filament.guest.pages.dashboard',
 'livewire.update','livewire.upload-file','livewire.preview-file','storage.local',);
-        registerArgumentsSet('views', 
+        registerArgumentsSet('views',
 'components.favicon','components.js-md5','filament-actions::action-modal','filament-actions::components.group','filament-actions::components.modals',
 'filament-forms::components.builder','filament-forms::components.builder.block-picker','filament-forms::components.checkbox','filament-forms::components.checkbox-list','filament-forms::components.code-editor',
 'filament-forms::components.color-picker','filament-forms::components.date-time-picker','filament-forms::components.field-wrapper','filament-forms::components.file-upload','filament-forms::components.hidden',
@@ -2995,7 +2995,7 @@ namespace PHPSTORM_META {
 'livewire::simple-tailwind','livewire::tailwind','notifications::email','pagination::bootstrap-4','pagination::bootstrap-5',
 'pagination::default','pagination::semantic-ui','pagination::simple-bootstrap-4','pagination::simple-bootstrap-5','pagination::simple-default',
 'pagination::simple-tailwind','pagination::tailwind',);
-        registerArgumentsSet('translations', 
+        registerArgumentsSet('translations',
 'auth.failed','auth.password','auth.throttle','pagination.previous','pagination.next',
 'passwords.reset','passwords.sent','passwords.throttled','passwords.token','passwords.user',
 'validation.accepted','validation.accepted_if','validation.active_url','validation.after','validation.after_or_equal',
@@ -3109,7 +3109,7 @@ namespace PHPSTORM_META {
 'filament-tables::table.grouping.fields.group.placeholder','filament-tables::table.grouping.fields.direction.label','filament-tables::table.grouping.fields.direction.options.asc','filament-tables::table.grouping.fields.direction.options.desc','filament-tables::table.reorder_indicator',
 'filament-tables::table.selection_indicator.selected_count','filament-tables::table.selection_indicator.actions.select_all.label','filament-tables::table.selection_indicator.actions.deselect_all.label','filament-tables::table.sorting.fields.column.label','filament-tables::table.sorting.fields.direction.label',
 'filament-tables::table.sorting.fields.direction.options.asc','filament-tables::table.sorting.fields.direction.options.desc','filament-tables::table.default_model_label','filament-widgets::chart.actions.filter.label',);
-        registerArgumentsSet('env', 
+        registerArgumentsSet('env',
 'APP_NAME','APP_ENV','APP_KEY','APP_DEBUG','APP_TIMEZONE',
 'APP_URL','APP_LOCALE','APP_FALLBACK_LOCALE','APP_FAKER_LOCALE','APP_MAINTENANCE_DRIVER',
 'PHP_CLI_SERVER_WORKERS','BCRYPT_ROUNDS','LOG_CHANNEL','LOG_STACK','LOG_DEPRECATIONS_CHANNEL',
@@ -3119,7 +3119,7 @@ namespace PHPSTORM_META {
 'REDIS_PORT','MAIL_MAILER','MAIL_SCHEME','MAIL_HOST','MAIL_PORT',
 'MAIL_USERNAME','MAIL_PASSWORD','MAIL_FROM_ADDRESS','MAIL_FROM_NAME','AWS_ACCESS_KEY_ID',
 'AWS_SECRET_ACCESS_KEY','AWS_DEFAULT_REGION','AWS_BUCKET','AWS_USE_PATH_STYLE_ENDPOINT','VITE_APP_NAME',);
-        
+
                 expectedArguments(\Illuminate\Support\Facades\Gate::has(), 0, argumentsSet('auth'));
     expectedArguments(\Illuminate\Support\Facades\Gate::allows(), 0, argumentsSet('auth'));
     expectedArguments(\Illuminate\Support\Facades\Gate::denies(), 0, argumentsSet('auth'));
@@ -3183,5 +3183,5 @@ namespace PHPSTORM_META {
                 expectedArguments(\Illuminate\Contracts\Translation\Translator::get(), 0, argumentsSet('translations'));
                 expectedArguments(\env(), 0, argumentsSet('env'));
                 expectedArguments(\Illuminate\Support\Env::get(), 0, argumentsSet('env'));
-            
+
 }

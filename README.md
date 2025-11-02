@@ -1,20 +1,20 @@
 <div class="filament-hidden">
 
-![NativeKit](https://raw.githubusercontent.com/jeffersongoncalves/nativekitv4/4.x/art/jeffersongoncalves-nativekitv4.png)
+![NativeKit](https://raw.githubusercontent.com/jeffersongoncalves/nativekitv5/5.x/art/jeffersongoncalves-nativekitv5.png)
 
 </div>
 
-# NativeKit Start Kit NativePHP 1.x, Filament 4.x and Laravel 12.x
+# NativeKit Start Kit NativePHP 1.x, Filament 5.x and Laravel 12.x
 
 ## About NativeKit
 
-NativeKit is a robust starter kit built on Laravel 12.x, Filament 4.x and NativePHP 1.x, designed to accelerate the development of modern
+NativeKit is a robust starter kit built on Laravel 12.x, Filament 5.x and NativePHP 1.x, designed to accelerate the development of modern
 desktop applications with a ready-to-use multi-panel structure.
 
 ## Features
 
 - **Laravel 12.x** - The latest version of the most elegant PHP framework
-- **Filament 4.x** - Powerful and flexible admin framework
+- **Filament 5.x** - Powerful and flexible admin framework
 - **NativePHP 1.x** - Build native desktop applications using PHP
 - **Multi-Panel Structure** - Includes three pre-configured panels:
     - Admin Panel (`/admin`) - For system administrators
@@ -32,7 +32,7 @@ desktop applications with a ready-to-use multi-panel structure.
 
 Clone the repository
 ``` bash
-laravel new my-app --using=jeffersongoncalves/nativekitv4
+laravel new my-app --using=jeffersongoncalves/nativekitv5
 ```
 
 ###  Easy Installation
