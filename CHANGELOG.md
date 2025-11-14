@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 5.0.0-beta3 - 2025-11-14
+
+### What's Changed
+
+* build(deps-dev): bump autoprefixer from 10.4.21 to 10.4.22 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/4
+
+**Full Changelog**: https://github.com/jeffersongoncalves/nativekitv5/compare/5.0.0-beta2...5.0.0-beta3
+
 ## 5.0.0-beta2 - 2025-11-08
 
 ### What's Changed
