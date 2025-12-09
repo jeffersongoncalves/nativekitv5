@@ -12510,8 +12510,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "filament/filament": 10,
-        "livewire/livewire": 10
+        "filament/filament": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
