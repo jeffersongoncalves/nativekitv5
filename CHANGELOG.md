@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## 5.0.0-beta8 - 2025-12-30
+
+### What's Changed
+
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/13
+* build(deps-dev): bump barryvdh/laravel-ide-helper from 3.6.0 to 3.6.1 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/14
+* build(deps-dev): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/15
+* build(deps-dev): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/16
+* build(deps-dev): bump larastan/larastan from 3.8.0 to 3.8.1 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/17
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/18
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/19
+* build(deps): bump laravel/framework from 12.43.1 to 12.44.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/20
+* build(deps-dev): bump barryvdh/laravel-debugbar from 3.16.2 to 3.16.3 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/21
+* build(deps): bump filament/filament from 5.0.0-beta7 to 5.0.0-beta8 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/22
+
+**Full Changelog**: https://github.com/jeffersongoncalves/nativekitv5/compare/5.0.0-beta7...5.0.0-beta8
+
 ## 5.0.0-beta7 - 2025-12-09
 
 ### What's Changed
