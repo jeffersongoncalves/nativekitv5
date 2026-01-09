@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![NativeKit](https://raw.githubusercontent.com/jeffersongoncalves/nativekitv5/5.x/art/jeffersongoncalves-nativekitv5.png)
+![NativeKit](https://raw.githubusercontent.com/jeffersongoncalves/nativekitv5/main/art/jeffersongoncalves-nativekitv5.png)
 
 </div>
 
