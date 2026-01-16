@@ -19,10 +19,10 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "filament/filament": "^5.0@beta",
+        "filament/filament": "^5.0",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
-        "livewire/livewire": "^4.0@beta",
+        "livewire/livewire": "^4.0",
         "nativephp/electron": "^1.1"
     },
     "require-dev": {
