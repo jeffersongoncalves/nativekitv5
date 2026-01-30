@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## 5.1.2 - 2026-01-30
+
+### What's Changed
+
+* build(deps-dev): bump axios from 1.13.3 to 1.13.4 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/41
+* build(deps): bump laravel/framework from 12.48.1 to 12.49.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/42
+* build(deps-dev): bump barryvdh/laravel-debugbar from 4.0.3 to 4.0.4 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/43
+
+**Full Changelog**: https://github.com/jeffersongoncalves/nativekitv5/compare/5.1.1...5.1.2
+
 ## 5.1.1 - 2026-01-27
 
 ### What's Changed
