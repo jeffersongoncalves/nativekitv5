@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 5.2.0 - 2026-02-04
+
+### What's Changed
+
+* build(deps-dev): bump barryvdh/laravel-debugbar from 4.0.4 to 4.0.5 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/44
+* build(deps): bump psy/psysh from 0.12.18 to 0.12.19 by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/45
+* build(deps-dev): bump autoprefixer from 10.4.23 to 10.4.24 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/46
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/47
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/nativekitv5/pull/48
+
+**Full Changelog**: https://github.com/jeffersongoncalves/nativekitv5/compare/5.1.3...5.2.0
+
 ## 5.1.3 - 2026-01-30
 
 **Full Changelog**: https://github.com/jeffersongoncalves/nativekitv5/compare/5.1.2...5.1.3
