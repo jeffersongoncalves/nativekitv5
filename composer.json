@@ -2,19 +2,20 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "jeffersongoncalves/nativekitv5",
     "type": "project",
-    "description": "The skeleton application for NativePHP, FilamentPHP and Laravel - Build native desktop applications.",
+    "description": "NativeKit starter kit built on Laravel 12.x, Filament 5.x and NativePHP for native desktop applications.",
     "keywords": [
         "laravel-starter-kit",
         "starter-kit",
         "filament-starter-kit",
         "nativephp-starter-kit",
         "laravel",
-        "framework",
         "filament",
+        "filament-v5",
+        "livewire",
+        "tailwindcss",
         "nativephp",
         "desktop-app",
-        "kit",
-        "start-kit"
+        "electron"
     ],
     "license": "MIT",
     "require": {
