@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "jeffersongoncalves/nativekitv5",
     "type": "project",
-    "description": "NativeKit starter kit built on Laravel 12.x, Filament 5.x and NativePHP for native desktop applications.",
+    "description": "NativeKit starter kit built on Laravel 13.x, Filament 5.x and NativePHP for native desktop applications.",
     "keywords": [
         "laravel-starter-kit",
         "starter-kit",
@@ -22,7 +22,7 @@
         "php": "^8.3",
         "dutchcodingcompany/filament-developer-logins": "^2.1",
         "filament/filament": "^5.0",
-        "laravel/framework": "^12.0",
+        "laravel/framework": "^13.0",
         "laravel/tinker": "^3.0.0",
         "livewire/livewire": "^4.0",
         "nativephp/electron": "^1.1"
@@ -37,8 +37,8 @@
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.1",
-        "pestphp/pest": "^3.7",
-        "pestphp/pest-plugin-laravel": "^3.0"
+        "pestphp/pest": "^4.0",
+        "pestphp/pest-plugin-laravel": "^4.0"
     },
     "autoload": {
         "psr-4": {
@@ -100,6 +100,99 @@
             "npx concurrently -k -c \"#93c5fd,#c4b5fd\" \"php artisan native:serve --no-interaction\" \"npm run dev\" --names=app,vite"
         ]
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "nativephp/laravel",
+                "version": "1.3.99",
+                "type": "library",
+                "homepage": "https://github.com/nativephp/laravel",
+                "license": "MIT",
+                "source": {
+                    "url": "https://github.com/NativePHP/laravel",
+                    "type": "git",
+                    "reference": "1.3.1"
+                },
+                "require": {
+                    "php": "^8.3",
+                    "illuminate/contracts": "^10.0|^11.0|^12.0|^13.0",
+                    "spatie/laravel-package-tools": "^1.16.4",
+                    "symfony/finder": "^6.2|^7.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Native\\Laravel\\": "src/"
+                    }
+                },
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Native\\Laravel\\NativeServiceProvider"
+                        ],
+                        "aliases": {
+                            "ChildProcess": "Native\\Laravel\\Facades\\ChildProcess",
+                            "Clipboard": "Native\\Laravel\\Facades\\Clipboard",
+                            "ContextMenu": "Native\\Laravel\\Facades\\ContextMenu",
+                            "Dock": "Native\\Laravel\\Facades\\Dock",
+                            "GlobalShortcut": "Native\\Laravel\\Facades\\GlobalShortcut",
+                            "Menu": "Native\\Laravel\\Facades\\Menu",
+                            "MenuBar": "Native\\Laravel\\Facades\\MenuBar",
+                            "Notification": "Native\\Laravel\\Facades\\Notification",
+                            "PowerMonitor": "Native\\Laravel\\Facades\\PowerMonitor",
+                            "Process": "Native\\Laravel\\Facades\\Process",
+                            "QueueWorker": "Native\\Laravel\\Facades\\QueueWorker",
+                            "Screen": "Native\\Laravel\\Facades\\Screen",
+                            "Settings": "Native\\Laravel\\Facades\\Settings",
+                            "Shell": "Native\\Laravel\\Facades\\Shell",
+                            "System": "Native\\Laravel\\Facades\\System",
+                            "Window": "Native\\Laravel\\Facades\\Window"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "nativephp/electron",
+                "version": "1.3.99",
+                "type": "library",
+                "homepage": "https://github.com/nativephp/electron",
+                "license": "MIT",
+                "source": {
+                    "url": "https://github.com/NativePHP/electron",
+                    "type": "git",
+                    "reference": "1.3.0"
+                },
+                "require": {
+                    "php": "^8.3",
+                    "illuminate/contracts": "^10.0|^11.0|^12.0|^13.0",
+                    "laravel/prompts": "^0.1.1|^0.2|^0.3",
+                    "nativephp/laravel": "^1.0",
+                    "nativephp/php-bin": "^1.0",
+                    "spatie/laravel-package-tools": "^1.16.4",
+                    "symfony/filesystem": "^6.4|^7.2",
+                    "ext-zip": "*"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Native\\Electron\\": "src/"
+                    }
+                },
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Native\\Electron\\ElectronServiceProvider"
+                        ],
+                        "aliases": {
+                            "Updater": "Native\\Electron\\Facades\\Updater"
+                        }
+                    }
+                }
+            }
+        }
+    ],
     "extra": {
         "laravel": {
             "dont-discover": []
